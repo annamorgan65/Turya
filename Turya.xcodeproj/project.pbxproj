@@ -13,7 +13,7 @@
 		9C19C6C721D97EEC00B0BF28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C19C6C621D97EEC00B0BF28 /* Assets.xcassets */; };
 		9C19C6CA21D97EEC00B0BF28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C19C6C821D97EEC00B0BF28 /* LaunchScreen.storyboard */; };
 		9C19C6D521D97EEC00B0BF28 /* TuryaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C19C6D421D97EEC00B0BF28 /* TuryaUITests.swift */; };
-		9C49AFBD21E1E21A002D4339 /* ChatVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49AFBC21E1E21A002D4339 /* ChatVCViewController.swift */; };
+		9C49AFBD21E1E21A002D4339 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49AFBC21E1E21A002D4339 /* ChatVC.swift */; };
 		9C49AFBF21E1E260002D4339 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49AFBE21E1E260002D4339 /* ChannelVC.swift */; };
 		9C73C0EE21E1FA120082E101 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C73C0ED21E1FA120082E101 /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
@@ -41,7 +41,7 @@
 		9C19C6D021D97EEC00B0BF28 /* TuryaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuryaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C19C6D421D97EEC00B0BF28 /* TuryaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuryaUITests.swift; sourceTree = "<group>"; };
 		9C19C6D621D97EEC00B0BF28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9C49AFBC21E1E21A002D4339 /* ChatVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVCViewController.swift; sourceTree = "<group>"; };
+		9C49AFBC21E1E21A002D4339 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		9C49AFBE21E1E260002D4339 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		9C73C0EB21E1FA110082E101 /* Turya-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Turya-Bridging-Header.h"; sourceTree = "<group>"; };
 		9C73C0EC21E1FA110082E101 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 		9C49AFB921E1E16E002D4339 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				9C49AFBC21E1E21A002D4339 /* ChatVCViewController.swift */,
+				9C49AFBC21E1E21A002D4339 /* ChatVC.swift */,
 				9C49AFBE21E1E260002D4339 /* ChannelVC.swift */,
 			);
 			path = Controller;
@@ -313,7 +313,7 @@
 			files = (
 				9C19C6C021D97EEA00B0BF28 /* AppDelegate.swift in Sources */,
 				9C49AFBF21E1E260002D4339 /* ChannelVC.swift in Sources */,
-				9C49AFBD21E1E21A002D4339 /* ChatVCViewController.swift in Sources */,
+				9C49AFBD21E1E21A002D4339 /* ChatVC.swift in Sources */,
 				9C73C0EE21E1FA120082E101 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

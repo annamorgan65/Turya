@@ -1,5 +1,5 @@
 //
-//  ChatVCViewController.swift
+//  ChatVC.swift
 //  Turya
 //
 //  Created by Anna Morgan on 1/5/19.
@@ -8,11 +8,13 @@
 
 import UIKit
 
-class ChatVCViewController: UIViewController {
+class ChatVC: UIViewController {
 
+    @IBOutlet weak var menuBtn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        menuBtn.addTarget(self.revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:)), for: .touchUpInside)
         // Do any additional setup after loading the view.
     }
     

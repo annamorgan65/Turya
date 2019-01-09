@@ -50,7 +50,7 @@
         <!--ChatVC-->
         <scene sceneID="pSk-CZ-Kpd">
             <objects>
-                <viewController id="cSH-W9-iEM" customClass="ChatVC" sceneMemberID="viewController">
+                <viewController id="cSH-W9-iEM" customClass="ChatVC" customModule="Turya" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mNg-1y-3aM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -91,6 +91,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="cY0-O2-O7N"/>
                     </view>
+                    <connections>
+                        <outlet property="menuBtn" destination="3ya-C3-S9B" id="edg-P7-S8u"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D6j-tU-cix" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
