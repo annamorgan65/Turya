@@ -19,6 +19,7 @@
 		9C73C0F021E8939D0082E101 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C73C0EF21E8939D0082E101 /* GradientView.swift */; };
 		9C73C0F321EB4C7E0082E101 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C73C0F221EB4C7E0082E101 /* Constants.swift */; };
 		9C73C0F521EB4DA30082E101 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C73C0F421EB4DA30082E101 /* CreateAccountVC.swift */; };
+		9C73C0F721EB50FA0082E101 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C73C0F621EB50FA0082E101 /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		9C73C0EF21E8939D0082E101 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		9C73C0F221EB4C7E0082E101 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		9C73C0F421EB4DA30082E101 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		9C73C0F621EB50FA0082E101 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 				9C49AFBC21E1E21A002D4339 /* ChatVC.swift */,
 				9C49AFBE21E1E260002D4339 /* ChannelVC.swift */,
 				9C73C0F421EB4DA30082E101 /* CreateAccountVC.swift */,
+				9C73C0F621EB50FA0082E101 /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 			files = (
 				9C19C6C021D97EEA00B0BF28 /* AppDelegate.swift in Sources */,
 				9C49AFBF21E1E260002D4339 /* ChannelVC.swift in Sources */,
+				9C73C0F721EB50FA0082E101 /* LoginVC.swift in Sources */,
 				9C73C0F021E8939D0082E101 /* GradientView.swift in Sources */,
 				9C49AFBD21E1E21A002D4339 /* ChatVC.swift in Sources */,
 				9C73C0F521EB4DA30082E101 /* CreateAccountVC.swift in Sources */,

@@ -17,7 +17,13 @@ class GradientView: UIView {
         }
     }
     
-    @IBInspectable var bottomColor: UIColor = #colorLiteral(red: 0.1725490196, green: 0.831372549, blue: 0.8470588235, alpha: 1) {
+    @IBInspectable var centerColor: UIColor = #colorLiteral(red: 0.1725490196, green: 0.831372549, blue: 0.8470588235, alpha: 1)  {
+        didSet {
+            self.setNeedsLayout()
+        }
+    }
+    
+    @IBInspectable var bottomColor: UIColor = #colorLiteral(red: 0.8867231011, green: 0.9683776498, blue: 0.853207767, alpha: 1) {
         didSet{
             self.setNeedsLayout()
             
@@ -25,15 +31,15 @@ class GradientView: UIView {
         
 }
     
-    override func layoutSubviews ()  {
+    override func layoutSubviews() {
         let gradientLayer = CAGradientLayer()
-        gradientLayer.colors = [topColor.cgColor, bottomColor.cgColor]
-        gradientLayer.startPoint = CGPoint (x: 0, y: 0)
+        gradientLayer.colors = [topColor.cgColor, centerColor.cgColor, bottomColor.cgColor]
+        gradientLayer.startPoint = CGPoint(x: 0, y: 0)
+        gradientLayer.position = CGPoint(x: 0.5, y: 0.5)
         gradientLayer.endPoint = CGPoint(x: 1, y: 1)
         gradientLayer.frame = self.bounds
-        self.layer.insertSublayer (gradientLayer, at: 0)
-        
-        }
+        self.layer.insertSublayer(gradientLayer, at: 0)
+    }
     
 }
 
